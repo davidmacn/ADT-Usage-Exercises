@@ -38,9 +38,9 @@ It could be used to demonstrate:
 
 # Exercises
 
-## Exercise 0 - Getting started
+## [Exercise 0 - Getting started](https://github.com/davidmacn/ADT-Usage-Exercises/blob/main/Exercises/Ex0/Readme.md)
 
-### Exercise 0.0 - Create a copy of this repository
+### [Exercise 0.0 - Create a copy of this repository](https://github.com/davidmacn/ADT-Usage-Exercises/tree/main/Exercises/Ex0#exercise-00---create-a-copy-of-this-repository)
 
 ## Exercise Refactoring features
 
