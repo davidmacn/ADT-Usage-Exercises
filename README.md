@@ -42,7 +42,7 @@ It could be used to demonstrate:
 
 ### [Exercise 0.0 - Create a copy of this repository](https://github.com/davidmacn/ADT-Usage-Exercises/tree/main/Exercises/Ex0#exercise-00---create-a-copy-of-this-repository)
 
-## Exercise 1 -  Refactoring features
+## [Exercise 1 -  Refactoring features](https://github.com/davidmacn/ADT-Usage-Exercises/tree/main/Exercises/Ex1#exercice-1---refarctoring-features)
 
 ## Exercise 2 - Navigation features
 
