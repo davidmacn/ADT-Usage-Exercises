@@ -1,8 +1,8 @@
 # Purpose
 
 This repository contains packages with class which will be used to do a demonstration of the usage of ADT in Eclipse.
-It could be used to demonstrate :
-- Refactoring options :
+It could be used to demonstrate:
+- Refactoring features:
   - Creation of class (from scratch, from a usage)
   - Creation of interface (from scratch, from a usage)
   - Creation Method (Constructor, Factory Method, from statement/Expressions)
@@ -11,21 +11,23 @@ It could be used to demonstrate :
   - Converting Locals to Class Members or Parameters
   - Deleting unused variables
   - Pull-up members to superclass/interface
-- Find class which implements an interface
-- Find the inheritance hierarchy
+- Navigation features:
+  - Where Used
+  - Find class which implements an interface
+  - Find the inheritance hierarchy
+  - F3 to navigate through technical objects
+  - Retrieve Visually the creation/feeding of a variable and their usage
 - Text Element in Class
-- Class Documentation (ABAPDOC)
+- Documentation
+  - Class Documentation (ABAPDOC)
+  - F2 usage to get information
 - DDIC features:
   - Database table Creation
   - Database Table Content Preview
-- Debugger
+- Debugger features:
   - Conditional Breakpoint
   - Content of variable (Class/Instance)
 - ATC running
-- Where Used
-- Retrieve Visually the creation/feeding of a variable and their usage
-- F2 usage to get information
-- F3 to navigate through technical objects
 - Versioning
 - Project Hierarchy Tree
 
@@ -36,6 +38,10 @@ It could be used to demonstrate :
 
 # Exercises
 
+## Exercise Refactoring features
 
+## Exercise Navigation features
+
+## Exercise DDIC Features
 
 
