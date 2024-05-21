@@ -42,10 +42,10 @@ It could be used to demonstrate:
 
 ### [Exercise 0.0 - Create a copy of this repository](https://github.com/davidmacn/ADT-Usage-Exercises/tree/main/Exercises/Ex0#exercise-00---create-a-copy-of-this-repository)
 
-## Exercise Refactoring features
+## Exercise 1 -  Refactoring features
 
-## Exercise Navigation features
+## Exercise 2 - Navigation features
 
-## Exercise DDIC Features
+## Exercise 3 - DDIC Features
 
 
