@@ -426,7 +426,7 @@ You should have the same result than the one got in Exercice 1.1.
 
 ![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/2e434d05-b5bf-4f6c-8cb8-697f5aa8a230)
 
-## Exercise 1.9 - Create a contructor
+## Exercise 1.9 - Create a constructor
 
 Go to Class zcl_exo1_d_#### 
 
@@ -531,3 +531,27 @@ In class Definition
 ![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/9c97c9c1-cfda-400a-99f4-ba14c266747f)
 
 3. Activate your class.
+
+## Exercise 1.12 - Change visibility
+
+Go to class zcl_exo1_d_#### 
+
+1. change the visibility of the method internal_processing from private to protected.
+
+Put your cursor on the name of the method internal_processing and use the Quick Fix (ctrl + 1) to move the method declaration from the private section to the protected section.
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/a2a3d096-708b-4af4-ba19-3527a33e9d10)
+
+Change in the Class Definition
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/1680cb43-1881-4f6b-9b50-b286ba871131)
+
+2. Activate your class.
+3. Execute the Class zcl_adt_exo1_#### and check the result in Console
+
+Execute the class zcl_adt_exo1_#### as an ABAP Application(Console)
+
+You should have the result below:
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/8a53dfd0-33ab-4a3b-812e-e4ea0059025c)
+
