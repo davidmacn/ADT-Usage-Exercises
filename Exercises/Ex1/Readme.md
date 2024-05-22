@@ -1,6 +1,6 @@
-# Exercice 1 - Refarctoring features
+# Exercise 1 - Refarctoring features
 
-## Exercice 1.0 - Initiliazation
+## Exercise 1.0 - Initiliazation
 
 Create package ZADT_USAGE_EX1-#### (replace #### by an alphanumeric characters to have a unique ID of package)
 
@@ -37,7 +37,7 @@ Click on Finish
 ![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/2660ab72-54c3-48f4-be1d-96830421f325)
 
 
-## Exercice 1.1 - Create class from scratch
+## Exercise 1.1 - Create class from scratch
 
 In the package ZADT_USAGE_EX1-#### create a class ZCL_ADT_EXO1_#### (Use same id than the one used for the package)
 
@@ -84,7 +84,7 @@ Activate your class (Shortcut Ctrl+F3)
 
 ![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/ce31f874-2a11-4376-bb5d-5b3abf14f4c3)
 
-## Exercice 1.2 - Create class from usage - Variable declaration
+## Exercise 1.2 - Create class from usage - Variable declaration
 
 1. Declare new varaible of an unknown class
 
@@ -128,7 +128,7 @@ Click on Finish
 
 Activate all your classes
  
-## Exercice 1.3 - Create class from usage - class-methods calling
+## Exercise 1.3 - Create class from usage - class-methods calling
 
 We will create a class with a factory method from the usage in the call method.
 
@@ -193,7 +193,7 @@ Click on finish
 ![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/45cd5992-a54f-443a-95a7-f768f2275ba2)
 
 
-## Exercice 1.4 - Create a factory method
+## Exercise 1.4 - Create a factory method
 
 1. Remove definition and implementation of class method create_with_ref_console
 In class zcl_exo1_d_#### remove the definition and the implementation of the method create_with_ref_console
@@ -259,7 +259,7 @@ Click on the method name (implementation or definition) and use the Quick Fix or
 
 6. Activate all your class
 
-## Exercice 1.5 - Create method from usage
+## Exercise 1.5 - Create method from usage
 
 Go to the class zcl_adt_exo1_####
 
@@ -309,7 +309,7 @@ You should have the same result than the one got in Exercice 1.1.
 ![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/2e434d05-b5bf-4f6c-8cb8-697f5aa8a230)
 
 
-## Exercice 1.6 - Create method from expression
+## Exercise 1.6 - Create method from expression
 
 Go to class zcl_exo1_d_####
 
@@ -333,7 +333,7 @@ Name the new method "is_console_initialized"
 
 3. Activate the class
 
-## Exercice 1.6 - Create method from statements
+## Exercise 1.6 - Create method from statements
 
 Go to class zcl_exo1_d_####
 
@@ -348,7 +348,7 @@ Go to class zcl_exo1_d_####
 2. Activate your class
 
 
-## Exercice 1.7 - Create interface from usage
+## Exercise 1.7 - Create interface from usage
 
 Go to class zcl_exo1_d_#### 
 
@@ -382,7 +382,7 @@ Select your TR and click on Finish
 
 3. Activate the newly interface.
 
-## Exercice 1.8 - Pull Up method to Interface
+## Exercise 1.8 - Pull Up method to Interface
 
 Go to class zcl_exo1_d_#### 
 
@@ -425,3 +425,109 @@ Save and activate the interface and the class.
 You should have the same result than the one got in Exercice 1.1.
 
 ![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/2e434d05-b5bf-4f6c-8cb8-697f5aa8a230)
+
+## Exercise 1.9 - Create a contructor
+
+Go to Class zcl_exo1_d_#### 
+
+1. Generate Constructor using Quick Fix (Ctrl + 1)
+
+Put your cursor on the class name and open the Quick fix (Ctrl + 1).
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/237dc64f-01eb-4aff-a242-7ae3f05c3231)
+
+Based on the attribute in your class in the popup you choose the attributes which would be part of the construtor implementation.
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/e51487ef-8e73-47d4-976c-8829d8aa433d)
+
+Click on finish.
+
+Constructor method definition generated
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/50c9e90c-3087-44ed-9b53-4a41701cf535)
+
+Constructor method implementation generated
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/613753cc-f431-4265-8b53-930a0e1be750)
+
+
+An error occured in method create_with_ref_console due to the constructor expects an importing parameter.
+
+2. Change the implementation of the factory method create_with_ref_console
+
+Replace the actual code by the code below
+
+```
+    DATA(lv_instance) = NEW zcl_exo1_d_0001( i_out ).
+    r_result = lv_instance.
+```
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/99e67f51-072b-46e8-b9d9-041e88820d77)
+
+
+3. Activate your class
+
+## Exercise 1.10 - Generate constants from literal
+
+Go to class zcl_exo1_d_#### 
+
+1. Add a literal in the method internal_processing
+
+Replace the implementation of the method internal_processing by the code below:
+
+```
+IF is_console_initialized( ) = abap_true.
+      gv_out->write( data = |Hello World| ).
+      DO 3 TIMES.
+        gv_out->write(  data = |iteration: { sy-index }| ).
+      ENDDO.
+    ENDIF.
+```
+
+2. Activate your class
+3. Execute the Class zcl_adt_exo1_#### and check the result in Console
+
+Execute the class zcl_adt_exo1_#### as an ABAP Application(Console)
+
+You should have the result below:
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/8a53dfd0-33ab-4a3b-812e-e4ea0059025c)
+
+
+4. Back to the class zcl_exo1_d_#### and use Quick fix to transform literal in local constants
+
+In method internal_processing implementation select the number 3 in the statement "DO 3 TIMES" and use the quick fix (Ctrl + 1) to transform this literal in a local constants "c_nb_iteration
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/d4ce3bec-958d-425a-bec7-bb26c5eb064d)
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/278dc03b-554b-46d1-9363-7bb937460214)
+
+5. Activate your class
+6. Execute the Class zcl_adt_exo1_#### and check the result in Console
+
+Execute the class zcl_adt_exo1_#### as an ABAP Application(Console)
+
+You should have the result below:
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/8a53dfd0-33ab-4a3b-812e-e4ea0059025c)
+
+## Exercise 1.11 - Converting local to class member
+
+Go to class zcl_exo1_d_#### 
+
+1. In method internal_processing implementaton put your cursor on the constant c_nb_iteration and use Quick fix to change from local to class member
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/4e0cfdf9-a650-4638-8703-141c2ebc2989)
+
+
+2. Change in the class
+
+In method internal_processing implementaton
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/c26b38d6-7f32-4bcb-8af6-1afb3200fdce)
+
+In class Definition
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/9c97c9c1-cfda-400a-99f4-ba14c266747f)
+
+3. Activate your class.
