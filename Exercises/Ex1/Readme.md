@@ -1,6 +1,6 @@
-# Exercise 1 - Refarctoring features
+# Exercise 1 - Refactoring features
 
-## Exercise 1.0 - Initiliazation
+## Exercise 1.0 - Initialization
 
 Create package ZADT_USAGE_EX1-#### (replace #### by an alphanumeric characters to have a unique ID of package)
 
