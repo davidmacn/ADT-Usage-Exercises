@@ -16,7 +16,7 @@ It could be used to demonstrate:
 - Eclipse installed [Download the Eclipse IDE and add the ABAP Development Tools (ADT) Plugin](https://developers.sap.com/tutorials/abap-install-adt.html)
 - A SAP BTP Abap Environment Trial [Create an SAP BTP ABAP Environment Trial User](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)
 - Have a [GitHub Account](https://github.com/signup)
-- Add the ABAP Cleaner Plugin
+- Installed the [ABAP Cleaner Plugin](https://github.com/SAP/abap-cleaner)
 
 # Exercises
 
