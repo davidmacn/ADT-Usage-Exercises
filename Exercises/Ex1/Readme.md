@@ -667,4 +667,49 @@ You should have the result below:
 
 ![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/64ac3fef-a36e-41bb-9989-084efd39a4f2)
 
+## Exercise 1.15 - Rename method through all its usages
+
+Open Class zcl_adt_exo1_0001
+
+Put your cursor on the call of the method process in method if_oo_adt_classrun~main
+
+Use the Shortcut Ctrl + 2 + r to rename the method process by execute
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/d32fd7d8-7b71-41a3-864f-c78290e4998d)
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/e2c504ce-b4a1-4ae1-9006-175bdbb3ee82)
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/e50e78fb-ba06-4845-af76-97fc2ef7690c)
+
+Click on Next>
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/ab462c9c-6bbb-4dd8-9cac-7c277a119dc1)
+
+You see all the objects impacted
+
+Click on Next>
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/6461db99-886b-481a-96bd-ca399311ec25)
+
+You see the change which would be done
+
+Click on Finish to apply the changes
+
+Due to the ALIAS in class zcl_exo1_d_####, we need to change manually the alias to have execute and also change the code in method if_oo_adt_classrun~main of the class zcl_adt_exo1_####
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/3d4ff0fd-4195-4be4-b291-f6596b088468)
+
+Activate all your changes
+
+Execute the Class zcl_adt_exo1_#### and check the result in Console
+
+Execute the class zcl_adt_exo1_#### as an ABAP Application(Console) (shortcut F9)
+
+You should have the result below:
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/64ac3fef-a36e-41bb-9989-084efd39a4f2)
+
+
+
+
 
