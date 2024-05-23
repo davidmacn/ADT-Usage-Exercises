@@ -22,4 +22,6 @@ It could be used to demonstrate:
 
 ## [Exercise 1 -  Refactoring features](https://github.com/davidmacn/ADT-Usage-Exercises/tree/main/Exercises/Ex1#exercice-1---refactoring-features)
 
+## [Exercise 2 - Search Object](https://github.com/davidmacn/ADT-Usage-Exercises/blob/main/Exercises/Ex2/Exercise2.md#exercise-2---search-object) 
+
 
