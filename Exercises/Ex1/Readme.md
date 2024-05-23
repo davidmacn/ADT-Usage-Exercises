@@ -555,3 +555,116 @@ You should have the result below:
 
 ![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/8a53dfd0-33ab-4a3b-812e-e4ea0059025c)
 
+## Exercise 1.13 - Create Text Element from code
+
+Go to class zcl_exo1_d_#### and method internal processing
+
+1. Replace hardcoding text by text element
+
+replace harcoding text 'Hello World' and iteration by a text elements
+
+replace the code of method internal processing by:
+
+```
+    IF is_console_initialized( ) = abap_true.
+      gv_out->write( data = 'Hello World'(001) ).
+      DO C_NB_ITERATION TIMES.
+        gv_out->write(  data = |{ text-002 }: { sy-index }| ).
+      ENDDO.
+    ENDIF.
+```
+
+2. Use the Quick Fix to create text-element 001 corresponding to text Hello World
+
+Put your cursor on the "Hello World" string and open Quick fix (Ctrl + 1)
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/4c3ebef6-ee62-438d-bc7e-e4c68527e618)
+
+Choose the action Create text 001 in text pool
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/740f5f52-fc5d-4954-abd2-bb1b557da76d)
+
+Click on Finish
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/61235e00-f058-4035-9a1e-b1c691d37bd4)
+
+Save the text element tab in Eclipse Editor view
+
+3. Use the Quick Fix to create text-element 002
+
+Put your cursor on text-002 string and open Quick fix (Ctrl  + 1)
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/664b95a8-dc8c-4d93-9440-9ce4e73142a7)
+
+Choose the action Create text 002 in text pool
+
+Fill the text content field in the popup like in the screenshot below
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/9275642b-fb25-4ae7-b39f-567b273217b3)
+
+Click on Finish
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/b6f48077-0014-4b38-8cf9-e93ea2eaf59a)
+
+Save and activate your class and text element tabs
+
+## Exercise 1.14 - Create Text Element from scratch
+
+Go to class zcl_exo1_d_####
+
+1. Open the text element tab in Eclipse Editor
+
+Right click in your class code and choose Open Ohters->Text Elements
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/13b60f1f-318c-47a6-b98c-a0ce9ef58493)
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/b09f1906-93cb-4d86-8c20-544daa6aab07)
+
+
+2. Add a new text element
+
+In the text element editor tab add a new line at the end of the existent line
+
+Use Ctrl + Space to open the Completion tool
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/2a049542-d6d4-4d55-82e9-71ee8d75258f)
+
+Choose Text Symbol, it will create a new text symbol from template
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/ab21d23d-d7fc-4e7f-bd03-8eef1a5f5be7)
+
+Change the number 000 to 003, replace the text "Replace me &1" by "End of Execution" and change the @MaxLength value from 13 to 20
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/0b992a9a-0377-46db-8cb9-137115602c21)
+
+Save and activate your text element tab
+
+3. Add the text element 003 in the code of the method internal_processing
+
+Go to the class zcl_exo1_d_#### in method internal_processing
+
+Replace the implementation by the code below (You can use the Completion Tool on text- to select id on the available list):
+
+```
+    IF is_console_initialized( ) = abap_true.
+      gv_out->write( data = 'Hello World'(001) ).
+      DO C_NB_ITERATION TIMES.
+        gv_out->write(  data = |{ text-002 }: { sy-index }| ).
+      ENDDO.
+      gv_out->write( data = text-003 ).
+    ENDIF.
+```
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/c9fcc99e-9f2a-41ba-9f14-9b79850f1194)
+
+Activate your class.
+
+4. Execute the Class zcl_adt_exo1_#### and check the result in Console
+
+Execute the class zcl_adt_exo1_#### as an ABAP Application(Console) (shortcut F9)
+
+You should have the result below:
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/64ac3fef-a36e-41bb-9989-084efd39a4f2)
+
+
