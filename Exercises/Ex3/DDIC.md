@@ -136,4 +136,112 @@ Heading:Data Element Demonstration
 
 ## Exercise 3.3 - Create a structure
 
+Steps to create a structure
+
+1.Right click on the Package ZADT_USAGE_EX3-#### 
+
+New->Other ABAP Repository Object
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/708b81dd-3ba3-4a1e-8f8f-decbb75a3056)
+
+Filter on Structure
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/dd85f88c-3466-41dc-a449-4abe4be0eb9f)
+
+Click on Next> after select the object Structure
+
+2.Fill basic information for the new Structure
+
+Fill the popup with the informations below:
+
+- Name: ZADT_3_STR#### (replace #### by the unique ID of package)
+- Description: ADT Structure Demonstration
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/1b833e61-dd90-4341-9337-89a4a642b1a6)
+
+Click on Next>
+
+3. Choose the TR
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/ed2254cc-ba33-4c55-94de-3d0fa1b7c034)
+
+Click on Finish
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/ad7e47ad-2263-4c51-b08b-e0cec9d74a2c)
+
+4. Define the fields which define the structure
+
+>Use the Ctrl + Space to add some anotation
+>For field based on predefined type use "abap.", use Ctrl + Space
+
+>For field based on data element start the name of the data element and use Ctrl + Space to view all the available data element
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/6a50b9c5-69f7-461b-8a05-e2aa82e9dead)
+
+>You can change the enhancement category through the annotation @AbapCatalog.enhancement.category and use the Ctrl + Space to choose between the available options
+
+5. Save and activate the new Structure
+
 ## Exercise 3.4 - Create a DB table
+
+Steps to create a DB Table
+
+1.Right click on the Package ZADT_USAGE_EX3-#### 
+
+New->Other ABAP Repository Object
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/708b81dd-3ba3-4a1e-8f8f-decbb75a3056)
+
+Filter on Table
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/1b3c399d-19cd-474d-a838-1e539591ce73)
+
+
+Click on Next> after select the object Database Table
+
+2.Fill basic information for the new Database Table
+
+Fill the popup with the informations below:
+
+- Name: ZADT_3_DB#### (replace #### by the unique ID of package)
+- Description: ADT DB Table Demonstration
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/9da0e8fe-364f-48c3-810d-98a346ba53fd)
+
+Click on Next>
+
+3. Choose the TR
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/3f157a37-fd22-4888-9160-7469132b5e95)
+
+Click on Finish
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/563310b4-2c81-4f6b-b0f0-a3dfe05a686c)
+
+
+4. Define the fields which define the db table
+
+>Use the Ctrl + Space to add some anotation
+>For field based on predefined type use "abap.", use Ctrl + Space
+
+>For field based on data element start the name of the data element and use Ctrl + Space to view all the available data element
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/6675adce-3a7c-47b6-a7f3-35fd39a05290)
+
+>You can change the enhancement category through the annotation @AbapCatalog.enhancement.category and use the Ctrl + Space to choose between the available options
+
+>use the keywords include to append an include in the db table definition
+
+5. Save and activate the new DB Table
+  
+6. Update technical settings
+
+Right Click in the DB Table editor view and choose Open Ohters->Technical Settings
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/1d5914d4-4049-446c-9a6b-0e52b88fc1d6)
+
+Update the technical settings (you can use Ctrl + Space on some field to help you to fill them).
+
+![image](https://github.com/davidmacn/ADT-Usage-Exercises/assets/118279247/3fabd400-5d40-4f3a-b756-93c7368fbd07)
+
+Save and activate
