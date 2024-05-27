@@ -24,4 +24,6 @@ It could be used to demonstrate:
 
 ## [Exercise 2 - Search Object](https://github.com/davidmacn/ADT-Usage-Exercises/blob/main/Exercises/Ex2/Exercise2.md#exercise-2---search-object) 
 
+## [Exercice 3 - DDIC Objects](https://github.com/davidmacn/ADT-Usage-Exercises/blob/main/Exercises/Ex3/DDIC.md#exercise-3---ddic-objects)
+
 
