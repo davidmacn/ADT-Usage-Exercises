@@ -11,6 +11,16 @@ It could be used to demonstrate:
   - Converting Locals to Class Members or Parameters
   - Deleting unused variables
   - Pull-up members to superclass/interface
+- Search Objects
+  - Filter object in Open Development Object popup
+  - Get the classes which implements an interface
+  - Where Used
+  - Class Inheritance Hierarchy
+- DDIC Objects
+  -   Create Domain
+  -   Create Data Element
+  -   Create Structure
+  -   Create DB Table
 
 # Prerequisites
 - Eclipse installed [Download the Eclipse IDE and add the ABAP Development Tools (ADT) Plugin](https://developers.sap.com/tutorials/abap-install-adt.html)
